@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Click detection demo</title>
+</head>
+
+<body>
+<h1>Click detection demo</h1>
+<p>Click on the red box for the score to update!</p>
+<div><span>Score:</span><span id="score"></span></div>
+<canvas id="ltpcanvas" height="350" width="350"></canvas>
+<script>
+// Variable to keep track of score
+var globalScore = 0;
+window.onload = function(){
+var ltp = document.getElementById('ltpcanvas');
+// The getContext() method returns an object that provides methods and proporties 
+// for drawing on the canvas
+var context = ltp.getContext('2d');
+context.beginPath();
+context.rect(0, 0, 150, 100);
+context.fillStyle = "red";
+context.fill();
+
+context.beginPath();
+context.rect(150, 0, 30, 100);
+context.fillStyle = "blue";
+context.fill();
+// This listens for mouse clicks, execute onDown function
+ltp.addEventListener('mousedown', onDown, false);
+}
+// It takes the mousedown event as a parameter,
+// The event has proporties
+// pageX is the x coordinate of the canvas clicked
+// pagey is the y coordinate of the canvas clicked
+function onDown(event){
+var cx = event.pageX;
+var cy = event.pageY;
+var score = 0;
+// Target span with ID="score"
+var scoreP = document.getElementById('score');
+// Print information in console
+console.log("X,Y = " + cx + ', ' + cy);
+// If the click is within thei x,y coordinate, update score
+if (cx <= 160 && cy <= 230) {
+globalScore = globalScore + 1;
+// Clear the previous printed score
+scoreP.innerHTML = "";
+console.log("score: " + globalScore);
+// Print new score in span tag
+scoreP.innerHTML = " " + globalScore;
+}
+}
+</script>
+</body>
+</html>
