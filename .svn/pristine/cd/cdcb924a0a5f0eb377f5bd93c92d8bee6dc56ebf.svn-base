@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Testing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--Load css file-->
     <link rel="stylesheet" href="test.css">
 </head>
+<!-- Following CSS elements to draw simple canvas and blocks -->
 <style>
 </style>
 
@@ -20,7 +20,7 @@
     <div class="canvas">
         <!--First nested div element: the 'window'-->
         <div id="1" class="window window1">
-            <!--The next nested element: the prof block and accompanying image-->
+            <!--The next nested element: the prof block-->
             <div class="prof"><img src="balloon.jpg"></img></div>
         </div>
         <div id="2" class="window window2">
@@ -41,9 +41,7 @@
     </div>
     <!--Start game on click-->
     <button id="start" onClick="startGame()">Start!</button>
-    <!--Score counter - subject to change-->
     <div>Score: <span id="score">0</span></div>
-    <!--Load javascript file -->
     <script src="test.js"></script>
 </body>
 
