@@ -1,0 +1,302 @@
+Revision: 29
+Author: DChiu28
+Date: Tuesday, April 24, 2018 1:41:17 PM
+Message:
+minor updates
+----
+Modified : /branches/test.css
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 28
+Author: DChiu28
+Date: Thursday, April 19, 2018 12:41:49 PM
+Message:
+branch commit: minor menu fixes
+----
+Modified : /branches/test.css
+Modified : /branches/test2.html
+
+Revision: 27
+Author: TestingYG
+Date: Wednesday, April 18, 2018 2:02:13 PM
+Message:
+fully intergraded reset button
+----
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 26
+Author: DChiu28
+Date: Thursday, April 12, 2018 2:29:40 PM
+Message:
+branch commit: minor fixes
+----
+Modified : /branches/test.css
+Modified : /branches/test.js
+
+Revision: 25
+Author: DChiu28
+Date: Tuesday, April 10, 2018 2:37:30 AM
+Message:
+Main commit: merged Leo's update with Joey's graphics
+----
+Modified : /Project/index.html
+Modified : /Project/whackamole.js
+
+Revision: 24
+Author: DChiu28
+Date: Monday, April 9, 2018 10:32:44 PM
+Message:
+branch commit: graphics testing
+----
+Added : /branches/graphic
+Added : /branches/graphic/all.jpg
+Added : /branches/graphic/fence.png
+Added : /branches/graphic/hammer.png
+Added : /branches/graphic/hammerOnClick.png
+Added : /branches/graphic/level2.png
+Added : /branches/graphic/level3.jpg
+Added : /branches/graphic/professor.png
+Modified : /branches/test.css
+Modified : /branches/test2.html
+
+Revision: 23
+Author: goeeec
+Date: Monday, April 9, 2018 8:19:51 PM
+Message:
+graphic sources
+----
+Added : /Project/graphic
+Added : /Project/graphic/all.jpg
+Added : /Project/graphic/fence.png
+Added : /Project/graphic/hammer.png
+Added : /Project/graphic/hammerOnClick.png
+Added : /Project/graphic/level2.png
+Added : /Project/graphic/level3.jpg
+Added : /Project/graphic/professor.png
+
+Revision: 22
+Author: goeeec
+Date: Monday, April 9, 2018 8:17:08 PM
+Message:
+graphics added
+----
+Modified : /Project/index.html
+Modified : /Project/whackamole.js
+
+Revision: 21
+Author: DChiu28
+Date: Monday, April 9, 2018 1:40:07 PM
+Message:
+branch commit: misc comments
+----
+Modified : /branches/test2.html
+
+Revision: 20
+Author: DChiu28
+Date: Monday, April 9, 2018 1:31:39 PM
+Message:
+branch commit: Graphics testing
+----
+Added : /branches/balloon.jpg
+Modified : /branches/test2.html
+
+Revision: 19
+Author: DChiu28
+Date: Monday, April 9, 2018 1:03:09 AM
+Message:
+branch commit: revamping canvas
+----
+Modified : /branches/test.css
+Modified : /branches/test2.html
+
+Revision: 18
+Author: DChiu28
+Date: Saturday, April 7, 2018 12:14:04 AM
+Message:
+misc commit
+----
+Added : /2ND_VER_PROJECT_IN_BRANCH_FOLDER.txt
+
+Revision: 17
+Author: DChiu28
+Date: Saturday, April 7, 2018 12:05:27 AM
+Message:
+Branch commit: Fixes to click handling
+----
+Modified : /branches/test.js
+
+Revision: 16
+Author: TestingYG
+Date: Friday, April 6, 2018 5:27:37 PM
+Message:
+potental fix to reset button
+----
+Modified : /Project/whackamole.js
+
+Revision: 15
+Author: DChiu28
+Date: Thursday, April 5, 2018 12:15:19 AM
+Message:
+Branch commit:
+- Added click handler for prof blocks
+- Added score counter
+----
+Modified : /branches/test.css
+Modified : /branches/test.js
+Modified : /branches/test2.html
+
+Revision: 14
+Author: DChiu28
+Date: Friday, March 30, 2018 5:40:58 PM
+Message:
+BACKBONE COMMIT:
+Updated main source files to Leo's JS version:
+- Working randomization
+- Click detection on blocks
+- Score counter
+- Pause function
+- ?Reset?
+Updated branch source files for HTML/CSS version:
+- Working randomization
+- No click detection
+- No score counter
+- No pause
+- No timer
+- No Reset
+----
+Added : /branches/test.css
+Added : /branches/test.js
+
+Revision: 13
+Author: DChiu28
+Date: Friday, March 30, 2018 5:40:22 PM
+Message:
+BACKBONE COMMIT:
+Updated main source files to Leo's JS version:
+- Working randomization
+- Click detection on blocks
+- Score counter
+- Pause function
+- ?Reset?
+Updated branch source files for HTML/CSS version:
+- Working randomization
+- No click detection
+- No score counter
+- No pause
+- No timer
+- No Reset
+----
+Modified : /Project/index.html
+Modified : /Project/whackamole.js
+Modified : /branches/test2.html
+
+Revision: 12
+Author: DChiu28
+Date: Friday, March 30, 2018 5:01:28 PM
+Message:
+Branch commit
+----
+Modified : /branches/test2.html
+
+Revision: 11
+Author: DChiu28
+Date: Monday, March 26, 2018 5:51:41 PM
+Message:
+Commit to branch folder
+----
+Modified : /branches/test2.html
+
+Revision: 10
+Author: DChiu28
+Date: Monday, March 26, 2018 4:39:35 PM
+Message:
+Branch commit:
+HTML test
+----
+Modified : /branches/test2.html
+
+Revision: 9
+Author: DChiu28
+Date: Monday, March 26, 2018 1:40:04 AM
+Message:
+Committing branch files
+----
+Modified : /branches/test2.html
+
+Revision: 8
+Author: DChiu28
+Date: Monday, March 26, 2018 1:07:11 AM
+Message:
+Backbone commit:
+Adding branch files for testing purposes
+No changes to main project
+----
+Added : /branches/clickDetection.html
+Added : /branches/test2.html
+
+Revision: 7
+Author: DChiu28
+Date: Sunday, March 25, 2018 8:33:11 PM
+Message:
+Backbone commit:
+Transfer of javascript code into js file
+
+----
+Modified : /Project/index.html
+Added : /Project/whackamole.js
+
+Revision: 6
+Author: DChiu28
+Date: Sunday, March 25, 2018 7:21:37 PM
+Message:
+Backbone commit:
+Blocks move up and down; no Randomization
+----
+Modified : /Project/index.html
+
+Revision: 5
+Author: DChiu28
+Date: Sunday, March 25, 2018 12:48:10 AM
+Message:
+Backbone Commit:
+Integrated Leo's pause function
+----
+Modified : /Project/index.html
+
+Revision: 4
+Author: DChiu28
+Date: Friday, March 23, 2018 11:31:40 PM
+Message:
+$BACKBONE COMMIT:\nPieces move up but not down\nSwitched to an array of game pieces instead\nIncreased size of canvas
+----
+Modified : /Project/index.html
+
+Revision: 3
+Author: DChiu28
+Date: Friday, March 23, 2018 8:14:22 PM
+Message:
+INITIAL COMMIT OF ORIGINAL SOURCE FILE
+----
+Added : /Project/index.html
+
+Revision: 2
+Author: raghibc
+Date: Tuesday, March 20, 2018 1:00:23 PM
+Message:
+Testing
+----
+Added : /Project
+Added : /Project/sample.txt
+
+Revision: 1
+Author: www-data
+Date: Tuesday, March 20, 2018 12:10:35 PM
+Message:
+Creating initial repository structure
+----
+Added : /branches
+Added : /tags
+Added : /trunk
+
