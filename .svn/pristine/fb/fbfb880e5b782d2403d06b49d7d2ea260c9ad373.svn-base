@@ -6,6 +6,7 @@ var timeleft = 0; // game timer
 var countdown; // used to assing a time interval to
 const hand = document.querySelector('.hand'); //grabs hand div
 
+
 // Function to start game
 function startGame() {
 	liveGame = 0;
@@ -13,11 +14,10 @@ function startGame() {
 	timeleft = 30;
 	document.getElementById("start").disabled = true; // Disables Start button to prevent overlap
 	var profs = $('.prof'); // Get all available prof elements
-	// trust = randomizeTrustee();
 	// $(profs).click(function() { // Adds click handler for prof elements
 	// 	$(this).finish(); // Ends animation immediately when clicked
-	//     scoreUp(trust); // Incremement score
-	// 	$(this).off("click"); //resets the click handler.
+	//     scoreUp(trustpop); // Incremement score
+	// 	//$(profs).reset("click"); //resets the click handler.
 	// });
 	const index = randomizeProf(profs); // Get a random prof
 	countdown = setInterval(timer, 1000);
@@ -55,10 +55,10 @@ function move(profs, index, trustpop) {
 		$(iProf).animate({ bottom: '-2px' }, 800, function () {
 			$(this).click(function () { // Adds click handler for prof elements
 				scoreUp(trust); // Increment score
-				//$(this).effect("explode",{pieces: 16}, 300);
-				$(this).finish(); // Ends animation immediately when clicked
+				$(this).effect("explode",{pieces: 16}, 500);
+				//$(this).finish(); // Ends animation immediately when clicked
 			});
-			//$(this).finish(); // Ends animation immediately when clicked
+			$(this).finish(); // Ends animation immediately when clicked
 			$(this).animate({ bottom: '-128px' }, 800, function () {
 				if (trust<=50)
 					$(this).removeClass("trustee");
