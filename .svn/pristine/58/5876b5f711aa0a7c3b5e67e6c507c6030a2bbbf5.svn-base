@@ -36,14 +36,17 @@
 .prof:active {
     background: url('./graphic/deadprof.png');
 }
-
+/*
 .trustee {
-    background: url('./graphic/Trustee.png');
+    background: url('balloon.jpg');
+    position: relative;
+    border: 1px green;
+    height: 120px;
+    width: 80px;
+    margin: 0 auto;
+    bottom: -120px;
 }
-.trustee:active {
-    background: url('./graphic/deadtrust.jpg');
-}
-
+*/
 
 .windowArea {
     /* border: 1px solid black; */

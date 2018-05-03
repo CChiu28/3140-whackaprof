@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Whack a Professor!</title>
+    <title>Testing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Load css file-->
     <link rel="stylesheet" href="test.css">
@@ -15,14 +15,13 @@
 <body>
     <!-- Importing jQuery library for animation purposes -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
     <!--Draw a large canvas and populate with nested "windows" and "prof" blocks-->
     <!--Main div element: the canvas-->
     <div id="main">
         <div class="canvas">
             <!--Upper left region-->
             <div class="windowArea upperLeft" style="margin-left: -20px">
-                <!--First nested div element: the 'window'-->
+            <!--First nested div element: the 'window'-->
                 <div id="1" class="window window1">
                     <!--The next nested element: the prof block and accompanying image-->
                     <div class="prof"></div>
@@ -39,9 +38,9 @@
                     <div class="prof"></div>
                 </div>
             </div>
-            <!-- Adds the clock element.-->
-            <div class="clock">
-                <div class="hand"></div>
+              <!-- Adds the clock element.-->
+            <div class = "clock">
+              <div class = "hand"></div>
             </div>
             <div class="windowArea middleRow" style="width: 1024px">
                 <div id="5" class="window window5">
@@ -51,7 +50,7 @@
                     <div class="prof"></div>
                 </div>
                 <div id="7" class="window window7">
-                    <div class="prof"></div>
+                        <div class="prof"></div>
 
                 </div>
                 <div id="8" class="window window8">
@@ -78,9 +77,7 @@
             <!--Reset button - subject to change-->
             <button id="restart" onClick="restart()">Restart!</button>
             <!--Score counter - subject to change-->
-            <div>Score:
-                <span id="score">0</span>
-            </div>
+            <div>Score: <span id="score">0</span></div>
         </div>
     </div>
     <!--Load javascript file -->

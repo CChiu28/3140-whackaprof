@@ -49,18 +49,16 @@ function move(profs, index, trustpop) {
 	var iProf = $(profs[index]); // Get individual professor
 	if (liveGame == 0) {
 		if (trust <= 50) { // If true, switch to trustee
-			//$(iProf).css("background-image", "url(./graphic/trustee.png)");
-			$(iProf).addClass("trustee");
+			$(iProf).css("background-image", "url(./graphic/trustee.png)");
 		}
 		$(iProf).animate({ bottom: '0px' }, 800, function () {
 			$(this).click(function () { // Adds click handler for prof elements
-				//$(this).effect("explode",{mode:"hide",pieces: 9}, 500);
 				$(this).finish(); // Ends animation immediately when clicked
 				scoreUp(trust); // Increment score			
 			});
 			$(this).animate({ bottom: '-120px' }, 800, function () {
 				if (trust<=50)
-					$(this).removeClass("trustee");
+					$(this).css("background-image", "url(./graphic/professor.png)");
 				index = randomizeProf(profs); // Get next random professor
 				move(profs, index, randomizeTrustee()); // Call move again to continue animation
 			});
