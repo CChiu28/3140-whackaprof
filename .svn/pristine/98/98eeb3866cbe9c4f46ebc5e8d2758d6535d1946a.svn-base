@@ -55,10 +55,10 @@ function move(profs, index, trustpop) {
 		$(iProf).animate({ bottom: '-2px' }, 800, function () {
 			$(this).click(function () { // Adds click handler for prof elements
 				scoreUp(trust); // Increment score
-				$(this).effect("explode",{pieces: 16}, 500);
+				$(this).effect("explode",{mode:"hide",pieces: 16}, 500);
 				//$(this).finish(); // Ends animation immediately when clicked
 			});
-			//$(this).finish(); // Ends animation immediately when clicked
+			$(this).finish(); // Ends animation immediately when clicked
 			$(this).animate({ bottom: '-128px' }, 800, function () {
 				if (trust<=50)
 					$(this).removeClass("trustee");
