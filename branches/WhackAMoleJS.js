@@ -52,13 +52,13 @@ function move(profs, index, trustpop) {
 			//$(iProf).css("background-image", "url(./graphic/trustee.png)");
 			$(iProf).addClass("trustee");
 		}
-		$(iProf).animate({ bottom: '0px' }, 800, function () {
+		$(iProf).animate({ bottom: '-2px' }, 800, function () {
 			$(this).click(function () { // Adds click handler for prof elements
 				//$(this).effect("explode",{mode:"hide",pieces: 9}, 500);
 				$(this).finish(); // Ends animation immediately when clicked
-				scoreUp(trust); // Increment score			
+				scoreUp(trust); // Increment score
 			});
-			$(this).animate({ bottom: '-120px' }, 800, function () {
+			$(this).animate({ bottom: '-128px' }, 800, function () {
 				if (trust<=50)
 					$(this).removeClass("trustee");
 				index = randomizeProf(profs); // Get next random professor
