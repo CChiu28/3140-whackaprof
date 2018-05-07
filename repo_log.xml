@@ -1,38 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <log>
 <logentry
-   revision="35">
+   revision="51">
 <author>DChiu28</author>
-<date>2018-05-01T15:29:18.712499Z</date>
+<date>2018-05-03T18:06:43.772522Z</date>
 <paths>
 <path
-   prop-mods="true"
-   text-mods="true"
-   kind="file"
-   action="A">/branches/graphic/deadprof.png</path>
-<path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/branches/test.css</path>
+   kind="file">/branches/WackAMoleHTML.html</path>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/branches/test.js</path>
+   kind="file">/branches/WhackAMoleCss.css</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/WhackAMoleJS.js</path>
 </paths>
-<msg>branch commit: added dead prof image</msg>
+<msg>fixed html windows and redundant css</msg>
 </logentry>
 <logentry
-   revision="34">
-<author>DChiu28</author>
-<date>2018-05-01T03:25:15.529071Z</date>
+   revision="50">
+<author>leo11235</author>
+<date>2018-05-03T17:26:42.907615Z</date>
 <paths>
 <path
-   prop-mods="true"
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/WackAMoleHTML.html</path>
+</paths>
+<msg>commennt</msg>
+</logentry>
+<logentry
+   revision="49">
+<author>DChiu28</author>
+<date>2018-05-03T16:31:38.659564Z</date>
+<paths>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/WhackAMoleJS.js</path>
+</paths>
+<msg>misc fixes+explode effects</msg>
+</logentry>
+<logentry
+   revision="48">
+<author>nreshetov</author>
+<date>2018-05-03T16:09:57.091184Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/QA.rtf</path>
+</paths>
+<msg>updated repository hierarchy</msg>
+</logentry>
+<logentry
+   revision="47">
+<author>nreshetov</author>
+<date>2018-05-03T16:03:31.014594Z</date>
+<paths>
+<path
    text-mods="true"
    kind="file"
-   action="A">/branches/graphic/Trustee.png</path>
+   action="M"
+   prop-mods="false">/RevisionHistory.txt</path>
+</paths>
+<msg>updated revision history</msg>
+</logentry>
+<logentry
+   revision="46">
+<author>DChiu28</author>
+<date>2018-05-03T15:26:03.864299Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/branches/WackAMoleHTML.html</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/branches/WhackAMoleCss.css</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/branches/WhackAMoleJS.js</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/branches/graphic/deadtrust.jpg</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/branches/graphic/deadtrust2.jpg</path>
+</paths>
+<msg>implemented tanuka's explode effect+tweaking move function</msg>
+</logentry>
+<logentry
+   revision="45">
+<author>nreshetov</author>
+<date>2018-05-03T04:01:39.116170Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/RevisionHistory.txt</path>
+</paths>
+<msg>revision history update</msg>
+</logentry>
+<logentry
+   revision="44">
+<author>TestingYG</author>
+<date>2018-05-03T02:52:07.781750Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/branches/WackAMoleHTML.html</path>
+</paths>
+<msg>minor change</msg>
+</logentry>
+<logentry
+   revision="43">
+<author>TestingYG</author>
+<date>2018-05-03T02:43:17.177497Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/branches/WackAMoleHTML.html</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/branches/WhackAMoleCss.css</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/branches/WhackAMoleJS.js</path>
+<path
+   text-mods="false"
+   kind="file"
+   action="D"
+   prop-mods="false">/branches/balloon.jpg</path>
+<path
+   text-mods="false"
+   kind="file"
+   action="D"
+   prop-mods="false">/branches/clickDetection.html</path>
+<path
+   text-mods="false"
+   kind="file"
+   action="D"
+   prop-mods="false">/branches/test.css</path>
+<path
+   text-mods="false"
+   kind="file"
+   action="D"
+   prop-mods="false">/branches/test.js</path>
+<path
+   text-mods="false"
+   kind="file"
+   action="D"
+   prop-mods="false">/branches/test2.html</path>
+</paths>
+<msg>filename changes, alignment of the windows, and code clean up</msg>
+</logentry>
+<logentry
+   revision="42">
+<author>DChiu28</author>
+<date>2018-05-03T02:31:21.039848Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/branches/graphic/deadtrust.jpg</path>
+</paths>
+<msg>added dead trustee image</msg>
+</logentry>
+<logentry
+   revision="41">
+<author>DChiu28</author>
+<date>2018-05-03T02:25:45.655991Z</date>
+<paths>
 <path
    prop-mods="false"
    text-mods="true"
@@ -49,6 +216,142 @@
    kind="file"
    action="M">/branches/test2.html</path>
 </paths>
+<msg>cleaned up some of the code</msg>
+</logentry>
+<logentry
+   revision="40">
+<author>Dtanuka</author>
+<date>2018-05-03T01:26:26.110413Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/branches/clickDetection.html</path>
+</paths>
+<msg>added explosion effect</msg>
+</logentry>
+<logentry
+   revision="39">
+<author>nreshetov</author>
+<date>2018-05-02T20:02:44.429193Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/RevisionHistory.txt</path>
+</paths>
+<msg>revision history updated</msg>
+</logentry>
+<logentry
+   revision="38">
+<author>DChiu28</author>
+<date>2018-05-02T03:19:10.094571Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/branches/test.js</path>
+</paths>
+<msg>moar cleanup+comments</msg>
+</logentry>
+<logentry
+   revision="37">
+<author>DChiu28</author>
+<date>2018-05-02T03:02:25.265148Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/branches/test.css</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/branches/test.js</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/branches/test2.html</path>
+</paths>
+<msg>cleanup code+add some comments</msg>
+</logentry>
+<logentry
+   revision="36">
+<author>TestingYG</author>
+<date>2018-05-01T20:33:16.388547Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/branches/test.css</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/branches/test.js</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/branches/test2.html</path>
+</paths>
+<msg>fixed trustee issues and other bugs</msg>
+</logentry>
+<logentry
+   revision="35">
+<author>DChiu28</author>
+<date>2018-05-01T15:29:18.712499Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/branches/graphic/deadprof.png</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.css</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.js</path>
+</paths>
+<msg>branch commit: added dead prof image</msg>
+</logentry>
+<logentry
+   revision="34">
+<author>DChiu28</author>
+<date>2018-05-01T03:25:15.529071Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/branches/graphic/Trustee.png</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.css</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.js</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
+</paths>
 <msg>branch commit: Began testing trustee pop ups and scoring</msg>
 </logentry>
 <logentry
@@ -57,10 +360,10 @@
 <date>2018-04-30T19:50:48.134849Z</date>
 <paths>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/RevisionHistory.txt</path>
+   kind="file">/RevisionHistory.txt</path>
 </paths>
 <msg>updating revision history</msg>
 </logentry>
@@ -70,10 +373,10 @@
 <date>2018-04-27T04:57:03.690255Z</date>
 <paths>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/branches/test.js</path>
+   kind="file">/branches/test.js</path>
 </paths>
 <msg>adding comments</msg>
 </logentry>
@@ -83,20 +386,20 @@
 <date>2018-04-27T04:52:09.616354Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.css</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.css</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.js</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>implemented clock and timer</msg>
 </logentry>
@@ -106,10 +409,10 @@
 <date>2018-04-26T17:37:38.596232Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="false">/RevisionHistory.txt</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/RevisionHistory.txt</path>
 </paths>
 <msg>Added revision history in txt file</msg>
 </logentry>
@@ -119,20 +422,20 @@
 <date>2018-04-24T17:41:17.610845Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.css</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.css</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.js</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>minor updates</msg>
 </logentry>
@@ -142,15 +445,15 @@
 <date>2018-04-19T16:41:49.519862Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.css</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.css</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>branch commit: minor menu fixes</msg>
 </logentry>
@@ -160,15 +463,15 @@
 <date>2018-04-18T18:02:13.323264Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.js</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>fully intergraded reset button</msg>
 </logentry>
@@ -178,15 +481,15 @@
 <date>2018-04-12T18:29:40.922768Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.css</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.css</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.js</path>
 </paths>
 <msg>branch commit: minor fixes</msg>
 </logentry>
@@ -196,15 +499,15 @@
 <date>2018-04-10T06:37:30.060092Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/Project/index.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/Project/index.html</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/Project/whackamole.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/Project/whackamole.js</path>
 </paths>
 <msg>Main commit: merged Leo's update with Joey's graphics</msg>
 </logentry>
@@ -214,55 +517,55 @@
 <date>2018-04-10T02:32:44.685155Z</date>
 <paths>
 <path
+   action="A"
+   prop-mods="false"
    text-mods="false"
-   kind="dir"
-   action="A"
-   prop-mods="false">/branches/graphic</path>
+   kind="dir">/branches/graphic</path>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="true">/branches/graphic/all.jpg</path>
-<path
+   prop-mods="true"
    text-mods="true"
-   kind="file"
+   kind="file">/branches/graphic/all.jpg</path>
+<path
    action="A"
-   prop-mods="true">/branches/graphic/fence.png</path>
-<path
+   prop-mods="true"
    text-mods="true"
-   kind="file"
+   kind="file">/branches/graphic/fence.png</path>
+<path
    action="A"
-   prop-mods="true">/branches/graphic/hammer.png</path>
-<path
+   prop-mods="true"
    text-mods="true"
-   kind="file"
+   kind="file">/branches/graphic/hammer.png</path>
+<path
    action="A"
-   prop-mods="true">/branches/graphic/hammerOnClick.png</path>
-<path
+   prop-mods="true"
    text-mods="true"
-   kind="file"
+   kind="file">/branches/graphic/hammerOnClick.png</path>
+<path
    action="A"
-   prop-mods="true">/branches/graphic/level2.png</path>
-<path
+   prop-mods="true"
    text-mods="true"
-   kind="file"
+   kind="file">/branches/graphic/level2.png</path>
+<path
    action="A"
-   prop-mods="true">/branches/graphic/level3.jpg</path>
-<path
+   prop-mods="true"
    text-mods="true"
-   kind="file"
+   kind="file">/branches/graphic/level3.jpg</path>
+<path
    action="A"
-   prop-mods="true">/branches/graphic/professor.png</path>
-<path
+   prop-mods="true"
    text-mods="true"
-   kind="file"
+   kind="file">/branches/graphic/professor.png</path>
+<path
    action="M"
-   prop-mods="false">/branches/test.css</path>
-<path
+   prop-mods="false"
    text-mods="true"
-   kind="file"
+   kind="file">/branches/test.css</path>
+<path
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>branch commit: graphics testing</msg>
 </logentry>
@@ -272,45 +575,45 @@
 <date>2018-04-10T00:19:51.794624Z</date>
 <paths>
 <path
+   action="A"
+   prop-mods="false"
    text-mods="false"
-   kind="dir"
-   action="A"
-   prop-mods="false">/Project/graphic</path>
+   kind="dir">/Project/graphic</path>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="true">/Project/graphic/all.jpg</path>
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/Project/graphic/all.jpg</path>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="true">/Project/graphic/fence.png</path>
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/Project/graphic/fence.png</path>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="true">/Project/graphic/hammer.png</path>
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/Project/graphic/hammer.png</path>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="true">/Project/graphic/hammerOnClick.png</path>
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/Project/graphic/hammerOnClick.png</path>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="true">/Project/graphic/level2.png</path>
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/Project/graphic/level2.png</path>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="true">/Project/graphic/level3.jpg</path>
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/Project/graphic/level3.jpg</path>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="true">/Project/graphic/professor.png</path>
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/Project/graphic/professor.png</path>
 </paths>
 <msg>graphic sources</msg>
 </logentry>
@@ -320,15 +623,15 @@
 <date>2018-04-10T00:17:08.513323Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/Project/index.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/Project/index.html</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/Project/whackamole.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/Project/whackamole.js</path>
 </paths>
 <msg>graphics added</msg>
 </logentry>
@@ -338,10 +641,10 @@
 <date>2018-04-09T17:40:07.605843Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>branch commit: misc comments</msg>
 </logentry>
@@ -351,15 +654,15 @@
 <date>2018-04-09T17:31:39.009975Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="true">/branches/balloon.jpg</path>
-<path
+   prop-mods="true"
    text-mods="true"
-   kind="file"
+   kind="file">/branches/balloon.jpg</path>
+<path
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>branch commit: Graphics testing</msg>
 </logentry>
@@ -369,15 +672,15 @@
 <date>2018-04-09T05:03:09.945971Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.css</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.css</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>branch commit: revamping canvas</msg>
 </logentry>
@@ -387,10 +690,10 @@
 <date>2018-04-07T04:14:04.236015Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="true">/2ND_VER_PROJECT_IN_BRANCH_FOLDER.txt</path>
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/2ND_VER_PROJECT_IN_BRANCH_FOLDER.txt</path>
 </paths>
 <msg>misc commit</msg>
 </logentry>
@@ -400,10 +703,10 @@
 <date>2018-04-07T04:05:27.986783Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.js</path>
 </paths>
 <msg>Branch commit: Fixes to click handling</msg>
 </logentry>
@@ -413,10 +716,10 @@
 <date>2018-04-06T21:27:37.809920Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/Project/whackamole.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/Project/whackamole.js</path>
 </paths>
 <msg>potental fix to reset button</msg>
 </logentry>
@@ -426,20 +729,20 @@
 <date>2018-04-05T04:15:19.525885Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.css</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.css</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.js</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>Branch commit:
 - Added click handler for prof blocks
@@ -451,15 +754,15 @@
 <date>2018-03-30T21:40:58.048089Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="false">/branches/test.css</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.css</path>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="false">/branches/test.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test.js</path>
 </paths>
 <msg>BACKBONE COMMIT:
 Updated main source files to Leo's JS version:
@@ -482,20 +785,20 @@ Updated branch source files for HTML/CSS version:
 <date>2018-03-30T21:40:22.786695Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/Project/index.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/Project/index.html</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/Project/whackamole.js</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/Project/whackamole.js</path>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>BACKBONE COMMIT:
 Updated main source files to Leo's JS version:
@@ -518,10 +821,10 @@ Updated branch source files for HTML/CSS version:
 <date>2018-03-30T21:01:28.489611Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>Branch commit</msg>
 </logentry>
@@ -531,10 +834,10 @@ Updated branch source files for HTML/CSS version:
 <date>2018-03-26T21:51:41.533299Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>Commit to branch folder</msg>
 </logentry>
@@ -544,10 +847,10 @@ Updated branch source files for HTML/CSS version:
 <date>2018-03-26T20:39:35.882950Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>Branch commit:
 HTML test</msg>
@@ -558,10 +861,10 @@ HTML test</msg>
 <date>2018-03-26T05:40:04.878125Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="M"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>Committing branch files</msg>
 </logentry>
@@ -571,15 +874,15 @@ HTML test</msg>
 <date>2018-03-26T05:07:11.891702Z</date>
 <paths>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="false">/branches/clickDetection.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/clickDetection.html</path>
 <path
-   text-mods="true"
-   kind="file"
    action="A"
-   prop-mods="false">/branches/test2.html</path>
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/branches/test2.html</path>
 </paths>
 <msg>Backbone commit:
 Adding branch files for testing purposes
@@ -591,15 +894,15 @@ No changes to main project</msg>
 <date>2018-03-26T00:33:11.885261Z</date>
 <paths>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/Project/index.html</path>
+   kind="file">/Project/index.html</path>
 <path
+   action="A"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="A">/Project/whackamole.js</path>
+   kind="file">/Project/whackamole.js</path>
 </paths>
 <msg>Backbone commit:
 Transfer of javascript code into js file
@@ -611,10 +914,10 @@ Transfer of javascript code into js file
 <date>2018-03-25T23:21:37.284756Z</date>
 <paths>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/Project/index.html</path>
+   kind="file">/Project/index.html</path>
 </paths>
 <msg>Backbone commit:
 Blocks move up and down; no Randomization</msg>
@@ -625,10 +928,10 @@ Blocks move up and down; no Randomization</msg>
 <date>2018-03-25T04:48:10.810635Z</date>
 <paths>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/Project/index.html</path>
+   kind="file">/Project/index.html</path>
 </paths>
 <msg>Backbone Commit:
 Integrated Leo's pause function</msg>
@@ -639,10 +942,10 @@ Integrated Leo's pause function</msg>
 <date>2018-03-24T03:31:40.734169Z</date>
 <paths>
 <path
+   action="M"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="M">/Project/index.html</path>
+   kind="file">/Project/index.html</path>
 </paths>
 <msg>$BACKBONE COMMIT:\nPieces move up but not down\nSwitched to an array of game pieces instead\nIncreased size of canvas</msg>
 </logentry>
@@ -652,10 +955,10 @@ Integrated Leo's pause function</msg>
 <date>2018-03-24T00:14:22.049578Z</date>
 <paths>
 <path
+   action="A"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="A">/Project/index.html</path>
+   kind="file">/Project/index.html</path>
 </paths>
 <msg>INITIAL COMMIT OF ORIGINAL SOURCE FILE</msg>
 </logentry>
@@ -665,15 +968,15 @@ Integrated Leo's pause function</msg>
 <date>2018-03-20T17:00:23.819940Z</date>
 <paths>
 <path
+   action="A"
    prop-mods="false"
    text-mods="false"
-   kind="dir"
-   action="A">/Project</path>
+   kind="dir">/Project</path>
 <path
+   action="A"
    prop-mods="false"
    text-mods="true"
-   kind="file"
-   action="A">/Project/sample.txt</path>
+   kind="file">/Project/sample.txt</path>
 </paths>
 <msg>Testing</msg>
 </logentry>
@@ -683,20 +986,20 @@ Integrated Leo's pause function</msg>
 <date>2018-03-20T16:10:35.126794Z</date>
 <paths>
 <path
+   action="A"
    prop-mods="false"
    text-mods="false"
-   kind="dir"
-   action="A">/branches</path>
+   kind="dir">/branches</path>
 <path
+   action="A"
    prop-mods="false"
    text-mods="false"
-   kind="dir"
-   action="A">/tags</path>
+   kind="dir">/tags</path>
 <path
+   action="A"
    prop-mods="false"
    text-mods="false"
-   kind="dir"
-   action="A">/trunk</path>
+   kind="dir">/trunk</path>
 </paths>
 <msg>Creating initial repository structure</msg>
 </logentry>

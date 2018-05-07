@@ -1,7 +1,6 @@
 let prev; // Used to keep track of last professor's position.
 let scoreCount = 0; // Score for each prof hit
 var scoreBoard = document.getElementById('score'); // Get score HTML element
-var hiscore = $('#hiscore'); // Get high score HTML element
 var liveGame = 1; // 0 = game is live, 1 = game is dead
 var timeleft = 30; // game timer
 var countdown; // used to assing a time interval to
@@ -10,7 +9,7 @@ const hand = document.querySelector('.hand'); //grabs hand div
 // Function to start game
 function startGame() {
 	liveGame = 0;
-	$('#start').prop('disabled',true); // Disables Start button to prevent overlap
+	document.getElementById("start").disabled = true; // Disables Start button to prevent overlap
 	var profs = $('.prof'); // Get all available prof elements
 	// trust = randomizeTrustee();
 	// $(profs).click(function() { // Adds click handler for prof elements
@@ -51,14 +50,14 @@ function move(profs, index, trustpop) {
 			//$(iProf).css("background-image", "url(./graphic/trustee.png)");
 			$(iProf).addClass("trustee");
 		}
-		$(iProf).animate({ bottom: '-2px' }, 900, function () {
+		$(iProf).animate({ bottom: '-2px' }, 800, function () {
 			$(this).click(function () { // Adds click handler for prof elements
 				scoreUp(trust); // Increment score
 				//$(this).effect("explode",{pieces: 16}, 300);
 				$(this).finish(); // Ends animation immediately when clicked
 			});
 			//$(this).finish(); // Ends animation immediately when clicked
-			$(this).animate({ bottom: '-128px' }, 900, function () {
+			$(this).animate({ bottom: '-128px' }, 800, function () {
 				if (trust<=50)
 					$(this).removeClass("trustee");
 				// index = randomizeProf(profs); // Get next random professor
@@ -83,26 +82,19 @@ function scoreUp(trust) {
 //Function to reset the game.
 function restart() {
 	liveGame = 1;
-	$('#start').prop('disabled',false);
+	document.getElementById("start").disabled = false;
 	scoreCount = 0;
 	scoreBoard.innerHTML = scoreCount;
 	timeleft = 30;
 	hand.style.transform = `rotate(${90}deg)`;
 	clearInterval(countdown);
 }
-// Adds click handler for restart button
-$('#restart').click(function() {
-	restart();
-})
 
 //function to control and modift the time left in the game.
 function timer() {
 	const handegree = (12 * (30 - timeleft)) + 102;
 	console.log(timeleft);
 	if (timeleft == 1) {
-		// If current score is higher than hiscore, set hiscore
-		if (scoreCount>hiscore.textContent)
-			hiscore.textContent = scoreCount;
 		restart();
 	}
 	else {
@@ -133,7 +125,6 @@ var pauseBtn = $('#pauseBtn');
 pauseBtn.click(function() {
 	togglePause();
 	toggleModal();
-	$('#pauseMenu').show();
 })
 
 // When the user clicks on <span> (x), close the modal

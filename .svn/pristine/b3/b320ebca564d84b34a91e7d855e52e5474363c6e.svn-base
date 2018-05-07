@@ -15,7 +15,6 @@
 <body>
     <!-- Importing jQuery library for animation purposes -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="jquery.pause.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
     <!--Draw a large canvas and populate with nested "windows" and "prof" blocks-->
     <!--Main div element: the canvas-->
@@ -93,25 +92,22 @@
         <div class="sideMenu">
             <button id="start" onClick="startGame()">Start!</button>
             <!--Reset button - subject to change-->
-            <button id="restart">Restart!</button>
+            <button id="restart" onClick="restart()">Restart!</button>
             <button id="pauseBtn">Pause</button>
             <!--Score counter - subject to change-->
             <div>Score:
                 <span id="score">0</span>
-            </div>
-            <div>High score: 
-                <span id="hiscore">0</span>
             </div>
         </div>
 
         <!-- The Modal -->
         <div id="myModal" class="modal">
             <!-- Modal content -->
-            <div id="pauseMenu" class="modal-content" style="display: none">
+            <div class="modal-content">
                 <!--<span class="close">&times;</span>-->
                 <p>MENU</p>
                 <p id="game-over"></p>
-                <button id="restart" onclick="restart()">Restart</button>
+                <button onclick="restart()">Restart</button>
                 <button onClick="music()">Toggle Music</button>
                 <button id= "resume" onClick= "resumeGame()"> Resume </button>  
             </div>
