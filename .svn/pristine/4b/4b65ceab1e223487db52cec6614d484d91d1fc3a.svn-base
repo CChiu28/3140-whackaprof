@@ -60,7 +60,7 @@ body {
     background: url('./graphic/deadtrust3.png');
 }
 
-.sideBar {
+.sideMenu {
     border: 1px solid blue;
     position:flex;
     width: 100px;

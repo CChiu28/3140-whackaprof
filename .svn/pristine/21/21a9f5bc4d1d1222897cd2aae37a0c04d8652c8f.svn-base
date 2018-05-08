@@ -54,13 +54,12 @@ function loadAll() {
 			$(iProf).click(function () {
 				scoreUp(trust);
 				$(this).finish();
-				//$(this).off("click");
+				$(this).off("click");
 			})
 			$(iProf).animate({ bottom: '-2px' }, 900).animate({ bottom: '-128px' }, 900, function () {
 				if (trust <= 50)
 					$(this).removeClass("trustee");
 				move(profs, randomizeProf(profs), randomizeTrustee());
-				$(this).off("click");
 			});
 		}
 	}

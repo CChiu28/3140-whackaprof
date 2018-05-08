@@ -12,18 +12,18 @@
 <style>
 </style>
 
-<body onload="loadAll()">
+<body>
     <!-- Importing jQuery library for animation purposes -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="jquery.pause.js"></script>
-
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
     <!--Draw a large canvas and populate with nested "windows" and "prof" blocks-->
+    <!--Main div element: the canvas-->
     <div id="main" class="main">
-        <!--Main div element: the canvas-->
         <div class="canvas">
             <!--First div element: the 'window1'-->
             <div id="1" class="window1" style="left: 27px; top:9px">
-                <!--The next nested element: the professor-->
+                <!--The next nested element: the prof block and accompanying image-->
                 <div class="prof"></div>
             </div>
 
@@ -88,10 +88,13 @@
                 <div class="prof"></div>
             </div>
         </div>
-        
-        <!-- Sidebar -->
-        <div class="sideBar">
-            <p>Whack a Professor!</p>
+
+        <div class="sideMenu">
+            <button id="start" class="buttonMain" onClick="startGame()">Start!</button>
+            <!--Reset button - subject to change-->
+            <button id="restart" class="buttonMain">Restart!</button>
+            <button id="pauseBtn" class="buttonMain">Pause</button>
+            <!--Score counter - subject to change-->
             <div>
                 Score:
                 <span id="score">0</span>
@@ -108,36 +111,35 @@
                 <!-- High score 3: -->
                 <span id="hiscore3">0</span>
             </div>
-            <div class="buttonMain">Press 'P' to pause the game!</div>
-        </div>
-
-        <!-- Splash screen -->
-        <div id="splash" class="modal" align="center" style="display: block">
-            <div class="modal-content">
-                <p>Whack a Professor!</p>
-                <button id="newstart" class="buttonMain">Start!</button>
-            </div>
-        </div>
-        <!-- Pause menu/Game over screen -->
-        <div id="pauseScreen" class="modal" align="center">
-            <!-- pause menu -->
-            <div id="pauseMenu" class="modal-content" style="display: none">
-                <!--<span class="close">&times;</span>-->
-                <p><font size="6">Game paused</font></p>
-                <button id="restart" class="buttonModal">Restart</button>
-                <button id="music" class="buttonModal">Toggle Music</button>
-                <button id="resume" class="buttonModal"> Resume </button>
-            </div>
-            <!-- game over screen -->
-            <div id="gameover" class="modal-content" style="display: none">
-                <p><font size="10">Game over!</font></p>
-                <p>Here's your score:
-                    <br><font size="6"><span id="goScore">0</span></font>
-                </p>
-                <button id="gameoverbtn" class="buttonModal">Restart</button>
-            </div>
         </div>
     </div>
+
+    <!-- The Modal -->
+    <div id="splash" class="modal" align="center" style="display: block">
+        <div class="modal-content">
+        <p>Whack a Professor!</p>
+        <button id="newstart" class="buttonModal" onclick="startGame()">Start!</button>
+        </div>
+    </div>
+    <div id="myModal" class="modal" align="center">
+        <!-- Modal content -->
+        <div id="pauseMenu" class="modal-content" style="display: none">
+            <!--<span class="close">&times;</span>-->
+            <p>MENU</p>
+            <p id="game-over"></p>
+            <button id="restart" class="buttonModal" onclick="restart()">Restart</button>
+            <button class="buttonModal" onClick="music()">Toggle Music</button>
+            <button id="resume" class="buttonModal" onClick="resumeGame()"> Resume </button>
+        </div>
+        <div id="gameover" class="modal-content" style="display: none">
+            <p>Game over!</p>
+            <p>Here's your score:
+                <span id="goScore">0</span>
+            </p>
+            <button id="gameoverbtn" class="buttonModal">Restart</button>
+        </div>
+    </div>
+    <!-- <div id="gameover" class="modal"></div> -->
 
     <!--Load javascript file -->
     <script src="WhackAMoleJS.js"></script>
