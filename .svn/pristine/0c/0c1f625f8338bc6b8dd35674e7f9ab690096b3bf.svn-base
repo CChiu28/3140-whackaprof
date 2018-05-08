@@ -9,7 +9,7 @@ body {
     left: 50%;
     /* top: 50%;
     margin-top: -288px; */
-    margin-left: -562px;
+    margin-left: -512px;
     display:flex;
 }
 .window1 {
